@@ -1,30 +1,54 @@
-const express = require('express');
-const app = express();
-const path=require("path");
-
+require("dotenv").config();
+const express = require("express");
 const http = require("http");
+const path = require("path");
+const socketio = require("socket.io");
+const connectDB = require("./server/config/db");
 
-const socketio= require("socket.io");
+const authRoutes = require("./server/routes/auth");
+
+const app = express();
 const server = http.createServer(app);
-const io=socketio(server);
+const io = socketio(server, {
+  cors: {
+    origin: "*",
+  },
+});
 
-
-app.set("view engine","ejs");
+// Middleware
+app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
+app.set("view engine", "ejs");
 
-io.on("connection", function(socket){
-    socket.on("send-location", function(data){
-        io.emit("receive-location",{id:socket.id, ...data});
-    });
-    
-    socket.on("disconnect",function(){
-        io.emit("user-disconnected",socket.id);
-    });
+// Routes
+app.use("/api/auth", authRoutes);
+
+// Render frontend
+app.get("/", (req, res) => {
+  res.render("index"); // views/index.ejs
+});
+app.get("/login", (req, res) => {
+  res.render("login");
 });
 
-app.get("/", function (req,res) {
-    res.render("index");
+app.get("/register", (req, res) => {
+  res.render("register");
 });
 
-server.listen(3000);
- 
+
+// Register socket handlers
+require("./server/socket")(io);
+
+// Start server **after MongoDB connection**
+const PORT = process.env.PORT || 3000;
+
+connectDB()
+  .then(() => {
+    console.log("MongoDB connected");
+    server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+  })
+  .catch((err) => {
+    console.error("MongoDB connection failed:", err.message);
+    process.exit(1); // Exit app on failure
+  });
+
