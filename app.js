@@ -51,4 +51,3 @@ connectDB()
     console.error("MongoDB connection failed:", err.message);
     process.exit(1); // Exit app on failure
   });
-
