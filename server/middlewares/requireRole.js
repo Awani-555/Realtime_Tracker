@@ -1,11 +1,10 @@
-// server/middleware/requireRole.js
-const requireRole = (requiredRole) => {
+const permit = (...allowedRoles) => {
   return (req, res, next) => {
-    if (req.user.role !== requiredRole) {
+    if (!req.user || !allowedRoles.includes(req.user.role)) {
       return res.status(403).json({ error: "Access denied: insufficient permissions" });
     }
     next();
   };
 };
 
-module.exports = requireRole;
+module.exports = permit;

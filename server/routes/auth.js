@@ -3,9 +3,8 @@ const router = express.Router();
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 
-// Input validation function
+// 🟡 Added input validation function
 const validateUserInput = (username, password) => {
-  // Email regex (simple version)
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const passwordMinLength = 6;
 
@@ -18,10 +17,11 @@ const validateUserInput = (username, password) => {
   return null;
 };
 
-// Register route
+// ✅ REGISTER ROUTE
 router.post("/register", async (req, res) => {
   try {
-    const { username, password } = req.body;
+    // 🟡 Added role field with default fallback
+    const { username, password, role = "user" } = req.body;
 
     const validationError = validateUserInput(username, password);
     if (validationError) {
@@ -33,7 +33,8 @@ router.post("/register", async (req, res) => {
       return res.status(400).json({ error: "Username already exists" });
     }
 
-    const user = new User({ username, password });
+    // 🟡 Save role to database
+    const user = new User({ username, password, role });
     await user.save();
 
     res.status(201).json({ message: "User registered successfully" });
@@ -43,7 +44,7 @@ router.post("/register", async (req, res) => {
   }
 });
 
-// Login route
+// ✅ LOGIN ROUTE
 router.post("/login", async (req, res) => {
   try {
     const { username, password } = req.body;
@@ -58,9 +59,12 @@ router.post("/login", async (req, res) => {
     const isMatch = await user.comparePassword(password);
     if (!isMatch) return res.status(401).json({ error: "Invalid credentials" });
 
-    const token = jwt.sign({ id: user._id, username: user.username }, process.env.JWT_SECRET, {
-      expiresIn: "7d",
-    });
+    // 🟡 JWT now includes role for RBAC
+    const token = jwt.sign(
+      { id: user._id, username: user.username, role: user.role },
+      process.env.JWT_SECRET,
+      { expiresIn: "7d" }
+    );
 
     res.json({ token });
   } catch (err) {

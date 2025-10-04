@@ -1,4 +1,3 @@
-// server/routes/alertRoutes.js
 const express = require("express");
 const router = express.Router();
 
@@ -9,17 +8,19 @@ const {
 } = require("../controllers/alertController");
 
 const verifyToken = require("../middlewares/auth");
-const requireRole = require("../middlewares/requireRole");
 
-// Routes
+// 🟡 Changed from requireRole (single role) to flexible permit
+const permit = require("../middlewares/permit");
 
 // POST - citizen/responder can send alert
-router.post("/", verifyToken, createAlert);
+// 🟡 permit() allows both 'user' and 'responder'
+router.post("/", verifyToken, permit("user", "responder"), createAlert);
 
 // GET - user gets their own alerts
 router.get("/user", verifyToken, getUserAlerts);
 
 // GET - only responder/admin can view all alerts
-router.get("/all", verifyToken, requireRole("responder"), getAllAlerts);
+// 🟡 permit() accepts multiple roles
+router.get("/all", verifyToken, permit("responder", "admin"), getAllAlerts);
 
 module.exports = router;
