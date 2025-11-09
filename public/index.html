@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realtime Tracker Dashboard</title>
+
+    <!-- Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- ✅ Verified Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha512-XQoYMqMTK8LvdlxUm05KkM9eU1hb4bE4zp3v3l9JkFjlbw0WbR0L2fLM5Q4M5bCi3ZLrj9XjKh3F0v0CPthew=="
+      crossorigin=""
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header
+      class="bg-blue-600 text-white px-6 py-4 flex items-center justify-between shadow-md"
+    >
+      <h1 class="text-xl font-semibold">📍 Realtime Tracker Dashboard</h1>
+      <div id="status" class="text-sm font-medium">Connecting...</div>
+    </header>
+
+    <!-- Main -->
+    <main class="flex flex-col md:flex-row">
+      <aside
+        class="w-full md:w-1/4 bg-white shadow-md p-4 border-r border-gray-200"
+      >
+        <h2 class="text-lg font-semibold mb-3">Active Devices</h2>
+        <ul id="deviceList" class="space-y-2 text-sm text-gray-700"></ul>
+      </aside>
+
+      <section class="flex-1">
+        <div id="map"></div>
+      </section>
+    </main>
+
+    <footer class="text-center text-xs text-gray-500 py-3">
+      &copy; 2025 Realtime Tracker. All rights reserved.
+    </footer>
+
+    <!-- ✅ Socket.io + Leaflet + your JS -->
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha512-vvZBu6EFiUeI0OAoO5dOZbQmFeWjPyiF3s2J+OXOkL3B8+1eTrbbvUzpUqGmXoG5aN09f3vG+jQd9sF2vV3r1g=="
+      crossorigin=""
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

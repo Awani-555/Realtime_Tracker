@@ -1,0 +1,107 @@
+[2025-11-09 21:18:27] [32minfo[39m:  Server running on port 3000
+[2025-11-09 21:18:31] [32minfo[39m: ✅ MongoDB Connected
+[2025-11-09 21:27:04] [32minfo[39m: ::1 - - [09/Nov/2025:15:57:04 +0000] "GET / HTTP/1.1" 200 38 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-09 21:27:04] [32minfo[39m: ::1 - - [09/Nov/2025:15:57:04 +0000] "GET /favicon.ico HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-09 21:27:49] [32minfo[39m: ::1 - - [09/Nov/2025:15:57:49 +0000] "GET /api/devices HTTP/1.1" 401 40 "-" "curl/8.14.1"
+[2025-11-09 23:48:39] [32minfo[39m:  Server running on port 3000
+[2025-11-09 23:48:40] [31merror[39m: MongoDB Connection Failed:
+[2025-11-09 23:49:38] [32minfo[39m:  Server running on port 3000
+[2025-11-09 23:49:45] [32minfo[39m:  MongoDB Connected
+[2025-11-09 23:49:49] [32minfo[39m: ::1 - - [09/Nov/2025:18:19:49 +0000] "GET / HTTP/1.1" 200 2565 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-09 23:49:50] [32minfo[39m: ::1 - - [09/Nov/2025:18:19:50 +0000] "GET /favicon.ico HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-09 23:55:35] [32minfo[39m:  Server running on port 3000
+[2025-11-09 23:55:39] [32minfo[39m:  MongoDB Connected
+[2025-11-09 23:55:43] [32minfo[39m: ::1 - - [09/Nov/2025:18:25:43 +0000] "GET / HTTP/1.1" 200 1134 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-09 23:55:44] [32minfo[39m: ::1 - - [09/Nov/2025:18:25:44 +0000] "GET /main.js HTTP/1.1" 200 943 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-09 23:56:04] [32minfo[39m: ::1 - - [09/Nov/2025:18:26:04 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-09 23:56:04] [32minfo[39m: ::1 - - [09/Nov/2025:18:26:04 +0000] "GET /main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-09 23:58:29] [32minfo[39m:  Server running on port 3000
+[2025-11-09 23:58:33] [31merror[39m: MongoDB Connection Failed:
+[2025-11-09 23:59:10] [32minfo[39m:  Server running on port 3000
+[2025-11-09 23:59:12] [32minfo[39m:  MongoDB Connected
+[2025-11-09 23:59:18] [32minfo[39m: ::1 - - [09/Nov/2025:18:29:18 +0000] "GET / HTTP/1.1" 200 992 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:02:17] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:02:22] [31merror[39m: MongoDB Connection Failed:
+[2025-11-10 00:02:37] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:02:40] [31merror[39m: MongoDB Connection Failed:
+[2025-11-10 00:02:56] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:03:04] [32minfo[39m:  MongoDB Connected
+[2025-11-10 00:03:10] [32minfo[39m: ::1 - - [09/Nov/2025:18:33:10 +0000] "GET / HTTP/1.1" 200 1114 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:03:13] [32minfo[39m: ::1 - - [09/Nov/2025:18:33:13 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:03:14] [32minfo[39m: ::1 - - [09/Nov/2025:18:33:14 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:03:14] [32minfo[39m: ::1 - - [09/Nov/2025:18:33:14 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:07:41] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:07:44] [31merror[39m: MongoDB Connection Failed:
+[2025-11-10 00:08:20] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:08:22] [31merror[39m: MongoDB Connection Failed:
+[2025-11-10 00:08:27] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:08:28] [31merror[39m: MongoDB Connection Failed:
+[2025-11-10 00:08:41] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:08:45] [32minfo[39m:  MongoDB Connected
+[2025-11-10 00:09:29] [32minfo[39m: ::1 - - [09/Nov/2025:18:39:29 +0000] "GET / HTTP/1.1" 200 1563 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:09:29] [32minfo[39m: ::1 - - [09/Nov/2025:18:39:29 +0000] "GET /style.css HTTP/1.1" 200 1211 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:09:29] [32minfo[39m: ::1 - - [09/Nov/2025:18:39:29 +0000] "GET /main.js HTTP/1.1" 200 1748 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:11:57] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:11:58] [31merror[39m: MongoDB Connection Failed:
+[2025-11-10 00:12:08] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:12:11] [32minfo[39m:  MongoDB Connected
+[2025-11-10 00:12:16] [32minfo[39m: ::1 - - [09/Nov/2025:18:42:16 +0000] "GET / HTTP/1.1" 200 1564 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:12:16] [32minfo[39m: ::1 - - [09/Nov/2025:18:42:16 +0000] "GET /main.js HTTP/1.1" 200 1772 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:12:16] [32minfo[39m: ::1 - - [09/Nov/2025:18:42:16 +0000] "GET /style.css HTTP/1.1" 200 1211 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:13:35] [32minfo[39m: ::1 - - [09/Nov/2025:18:43:35 +0000] "GET / HTTP/1.1" 200 1578 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:13:35] [32minfo[39m: ::1 - - [09/Nov/2025:18:43:35 +0000] "GET /style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:13:35] [32minfo[39m: ::1 - - [09/Nov/2025:18:43:35 +0000] "GET /main.js HTTP/1.1" 200 1763 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:15:07] [32minfo[39m: ::1 - - [09/Nov/2025:18:45:07 +0000] "GET / HTTP/1.1" 200 1836 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:15:07] [32minfo[39m: ::1 - - [09/Nov/2025:18:45:07 +0000] "GET /style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:15:07] [32minfo[39m: ::1 - - [09/Nov/2025:18:45:07 +0000] "GET /main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:17:46] [32minfo[39m: ::1 - - [09/Nov/2025:18:47:46 +0000] "GET / HTTP/1.1" 200 1233 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:17:46] [32minfo[39m: ::1 - - [09/Nov/2025:18:47:46 +0000] "GET /style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:17:46] [32minfo[39m: ::1 - - [09/Nov/2025:18:47:46 +0000] "GET /script.js HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:20:19] [32minfo[39m: ::1 - - [09/Nov/2025:18:50:19 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:20:19] [32minfo[39m: ::1 - - [09/Nov/2025:18:50:19 +0000] "GET /style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:20:19] [32minfo[39m: ::1 - - [09/Nov/2025:18:50:19 +0000] "GET /script.js HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:21:56] [32minfo[39m: ::1 - - [09/Nov/2025:18:51:56 +0000] "GET / HTTP/1.1" 200 2515 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:21:56] [32minfo[39m: ::1 - - [09/Nov/2025:18:51:56 +0000] "GET /main.js HTTP/1.1" 200 2786 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:22:21] [32minfo[39m: ::1 - - [09/Nov/2025:18:52:21 +0000] "GET / HTTP/1.1" 200 1231 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:22:21] [32minfo[39m: ::1 - - [09/Nov/2025:18:52:21 +0000] "GET /style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:22:21] [32minfo[39m: ::1 - - [09/Nov/2025:18:52:21 +0000] "GET /script.js HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:25:55] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:25:56] [31merror[39m: MongoDB Connection Failed:
+[2025-11-10 00:26:06] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:26:08] [31merror[39m: MongoDB Connection Failed:
+[2025-11-10 00:26:11] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:26:13] [32minfo[39m:  MongoDB Connected
+[2025-11-10 00:26:17] [32minfo[39m: ::1 - - [09/Nov/2025:18:56:17 +0000] "GET / HTTP/1.1" 200 2015 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:26:17] [32minfo[39m: ::1 - - [09/Nov/2025:18:56:17 +0000] "GET /style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:26:17] [32minfo[39m: ::1 - - [09/Nov/2025:18:56:17 +0000] "GET /main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:27:50] [32minfo[39m: ::1 - - [09/Nov/2025:18:57:50 +0000] "POST /api/devices/update-location HTTP/1.1" 401 40 "-" "curl/8.14.1"
+[2025-11-10 00:29:50] [32minfo[39m:  Server running on port 3000
+[2025-11-10 00:29:52] [32minfo[39m:  MongoDB Connected
+[2025-11-10 00:30:01] [32minfo[39m: Emitted location update for device Truck_01
+[2025-11-10 00:30:01] [32minfo[39m: 📍 Location updated for device Truck_01
+[2025-11-10 00:30:01] [32minfo[39m: ::1 - - [09/Nov/2025:19:00:01 +0000] "POST /api/devices/update-location HTTP/1.1" 200 334 "-" "curl/8.14.1"
+[2025-11-10 00:30:06] [32minfo[39m: ::1 - - [09/Nov/2025:19:00:06 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:30:06] [32minfo[39m: ::1 - - [09/Nov/2025:19:00:06 +0000] "GET /style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:30:06] [32minfo[39m: ::1 - - [09/Nov/2025:19:00:06 +0000] "GET /main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:30:07] [32minfo[39m: ::1 - - [09/Nov/2025:19:00:07 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:30:07] [32minfo[39m: ::1 - - [09/Nov/2025:19:00:07 +0000] "GET /style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:30:07] [32minfo[39m: ::1 - - [09/Nov/2025:19:00:07 +0000] "GET /main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:33:36] [32minfo[39m: ::1 - - [09/Nov/2025:19:03:36 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:33:36] [32minfo[39m: ::1 - - [09/Nov/2025:19:03:36 +0000] "GET /style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:33:36] [32minfo[39m: ::1 - - [09/Nov/2025:19:03:36 +0000] "GET /main.js HTTP/1.1" 200 2809 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:33:38] [32minfo[39m: ::1 - - [09/Nov/2025:19:03:38 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:33:38] [32minfo[39m: ::1 - - [09/Nov/2025:19:03:38 +0000] "GET /style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 00:33:38] [32minfo[39m: ::1 - - [09/Nov/2025:19:03:38 +0000] "GET /main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 01:05:26] [32minfo[39m:  Server running on port 3000
+[2025-11-10 01:05:30] [32minfo[39m:  MongoDB Connected
+[2025-11-10 01:05:43] [32minfo[39m: Emitted location update for device Truck_01
+[2025-11-10 01:05:43] [32minfo[39m: 📍 Location updated for device Truck_01
+[2025-11-10 01:05:43] [32minfo[39m: ::1 - - [09/Nov/2025:19:35:43 +0000] "POST /api/devices/update-location HTTP/1.1" 200 334 "-" "curl/8.14.1"
+[2025-11-10 01:15:18] [32minfo[39m:  Server running on port 3000
+[2025-11-10 01:15:21] [32minfo[39m:  MongoDB Connected
+[2025-11-10 01:15:36] [32minfo[39m: ::1 - - [09/Nov/2025:19:45:36 +0000] "POST /api/devices/register HTTP/1.1" 409 37 "-" "curl/8.14.1"
+[2025-11-10 01:16:10] [32minfo[39m: Emitted location update for device Truck_01
+[2025-11-10 01:16:10] [32minfo[39m: 📍 Location updated for device Truck_01
+[2025-11-10 01:16:10] [32minfo[39m: ::1 - - [09/Nov/2025:19:46:10 +0000] "POST /api/devices/update-location HTTP/1.1" 200 334 "-" "curl/8.14.1"
+[2025-11-10 01:16:19] [32minfo[39m: ::1 - - [09/Nov/2025:19:46:19 +0000] "GET /api/devices HTTP/1.1" 401 40 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+[2025-11-10 01:16:19] [32minfo[39m: ::1 - - [09/Nov/2025:19:46:19 +0000] "GET /api/devices HTTP/1.1" 401 40 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
